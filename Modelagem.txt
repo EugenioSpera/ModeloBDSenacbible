@@ -1,0 +1,6 @@
+MOdelagem 
+
+1. Identificar as Entidades
+2. Identificar Atributos 
+3. Identificar os compostos
+4. Identificar Multivalorados
