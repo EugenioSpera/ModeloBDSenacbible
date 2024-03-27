@@ -4,3 +4,13 @@ MOdelagem
 2. Identificar Atributos 
 3. Identificar os compostos
 4. Identificar Multivalorados
+
+
+Chave primária tem que ser:
+ÚNICA
+UNIVERSAL 
+IMUTÁVEL
+
+Criar chave primária para todas as tabelas(Entidades).
+Quando a chave esta dentro da entidade ela se chama primária.
+Quando a chave em uma entidade é utilizada da entidade "pai" dela, chama se chave estrangeira.
