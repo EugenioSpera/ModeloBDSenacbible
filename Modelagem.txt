@@ -1,16 +1,27 @@
-MOdelagem 
-
+Modelagem
+ 
 1. Identificar as Entidades
 2. Identificar Atributos 
 3. Identificar os compostos
 4. Identificar Multivalorados
-
-
+ 
+ 
 Chave primária tem que ser:
 ÚNICA
 UNIVERSAL 
 IMUTÁVEL
-
+ 
 Criar chave primária para todas as tabelas(Entidades).
 Quando a chave esta dentro da entidade ela se chama primária.
-Quando a chave em uma entidade é utilizada da entidade "pai" dela, chama se chave estrangeira.
+Quando a chave em uma entidade é utilizada FORA DA ENTIDADE chama se chave estrangeira.
+ 
+ 
+As cardinalidades podem, ser representadas com 0,1 , 1,1 , 1,0 , 0,N e 1,N.
+Uma relação obrigatória tem que ser no mínimo 1, uma relação opcional pode ser 0. 
+Quando ocorrer de ser N,N deve ser quebrada para poder ser modelada no Banco de dados. É nescessário criar uma entidade associativa.
+O lado que esta com N, sempre vai ter a chave estrangeira. a Chave primária fica com o lado 0 ou 1.
+
+
+
+
+
